@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/styless.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <title>Portafolio</title>
+</head>
+<body>
+    <header>
+        <div class="nav">   
+       <a href="index.html" id="logo">WebStudio</a>
+       <nav>
+           <ul class="list-nav">
+            <li><a href="#" id="estudio"><button id="form" onclick="window.modal1.showModal();">Estudio</button></a></li>
+               <li><a href="portafolio.html">portafolio</a></li>
+               <li><a href="#">Contactos</a></li>
+           </ul>
+       </nav>
+       <ul class="info">
+        <svg class="header-logos" width="16" height="12">
+            <use href="./svg/symbol-defs.svg#header-mail"></use>
+        </svg>
+           <li><a href="#" mailto:info@devstudio.com  id="correo">info@devstudio.com</a></li>
+           <svg class="header-logos" width="16" height="15">
+            <use href="./svg/symbol-defs.svg#header-phone"></use>
+        </svg>
+           <li><a href="#" tel:+575555296000>+575555296000</a></li>
+       </ul>
+       </div>
+       </header>
+       <hr>
+       <dialog id="modal1">
+        <button  onclick="window.modal1.close();">
+        <svg  id="cerrar-form" width="20" height="20">
+            <use href="./svg/symbol-defs.svg#icono-cerrar"></use>
+        </svg>
+        </button>
+        <form id="formulario"class="formulario-inscripcion" name="form" autocomplete="on" novalidate>
+            <legend id="legend1">Deje sus datos, nos contactaremos con usted</legend>
+            <label class="titulo-entrada" for="nombre">Nombre
+                <div class="input">
+                    <svg class="usuario-formulario" width="20" height="20">
+                        <use href="./svg/symbol-defs.svg#icono-usuario"></use>
+                    </svg>    
+            <input type="text" class="entradas-generales" name="name" id="nombre" placeholder="Nombre"   required   title="debe incluir por lo menos un nombre valido">
+                </div>
+            </label>
+            <label class="titulo-entrada" for="phone">telefono
+                <div class="input">
+                    <svg class="usuario-formulario" width="20" height="20">
+                        <use href="./svg/symbol-defs.svg#icono-telefono"></use>
+                    </svg>    
+            <input type="tel" class="entradas-generales" id="phone" name="phone_number" placeholder="telefono" required >
+                </div>
+            </label>
+            <label class="titulo-entrada" for="user_email">correo
+                <div class="input">
+                    <svg class="usuario-formulario" width="20" height="20">
+                        <use href="./svg/symbol-defs.svg#icono-email"></use>
+                    </svg> 
+            <input id="user_email" class="entradas-generales" type="email" name="email"  placeholder="tucorreo@email.com" />
+                </div>
+            </label>
+            <label class="titulo-entrada" for="coment">
+            comentarios:
+            <textarea name="comentarios"  class="entrada-texto" id="texto" rows="5" placeholder="comentarios"></textarea>
+            <label class="flexionar">
+               
+            <input  id="checkr" type="checkbox" name="terminos" value="acepto" class="terminos-condiciones"/>
+             
+           <p class="advertsment">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones.</p>
+            </label>
+            <div class="center">
+            <button  class="envio" type="submit">Enviar</button>
+            </div>
+        </form>
+    </dialog>
+       <section class="buttons">
+        <button id="boton1" class="botones">todo</button>
+        <button id="boton2" class="botones">sitios-web</button>
+        <button id="boton3" class="botones">aplicaciones</button>
+        <button id="boton4" class="botones">diseño</button>
+        <button id="boton5" class="botones">marketing</button>
+       </section>
+       <main class="main">
+       <div class="tarjeta">
+        <div class="mensaje-contenedor">
+        <img src="images/imagen (27).png" alt="producto">
+        <div class="mensaje">
+            <p>Tecnoduck es una plataforma de distribución de coronavirus
+               de última generación. Las compañías usan esta plataforma para
+                el espionaje digital y los
+               ataques a los servidores seguros de la competencia.
+            </p>
+        </div>
+        </div>
+        <h5 class="titulo-producto">Tecnoduck</h5>
+        <p class="parrafo-producto">Sitio-web</p>
+       </div>
+       <div class="tarjeta">
+        <div class="mensaje-contenedor">
+        <img src="images/imagen (28).png" alt="producto">
+        <div class="mensaje">
+            <p>Tecnoduck es una plataforma de distribución de coronavirus
+               de última generación. Las compañías usan esta plataforma para
+                el espionaje digital y los
+               ataques a los servidores seguros de la competencia.
+            </p>
+        </div>
+        </div>
+        <h5 class="titulo-producto">Póster de Nueva Orleans vs Estrella Dorada</h5>
+       </div>
+       <div class="tarjeta">
+        <div class="mensaje-contenedor">
+        <img src="images/imagen (29).png" alt="producto">
+        <div class="mensaje">
+            <p>Tecnoduck es una plataforma de distribución de coronavirus
+               de última generación. Las compañías usan esta plataforma para
+                el espionaje digital y los
+               ataques a los servidores seguros de la competencia.
+            </p>
+        </div>
+        </div>
+        <h5 class="titulo-producto">Restaurante Seafood</h5>
+        <p class="parrafo-producto">Aplicaciones</p>
+       </div>
+       <div class="tarjeta">
+        <div class="mensaje-contenedor">
+        <img src="images/imagen (30).png" alt="producto">
+        <div class="mensaje">
+            <p>Tecnoduck es una plataforma de distribución de coronavirus
+               de última generación. Las compañías usan esta plataforma para
+                el espionaje digital y los
+               ataques a los servidores seguros de la competencia.
+            </p>
+        </div>
+        </div>
+        <h5 class="titulo-producto">Proyecto Prime</h5>
+        <p class="parrafo-producto">Marketing</p>
+       </div>
+       <div class="tarjeta">
+        <div class="mensaje-contenedor">
+        <img src="images/imagen (31).png" alt="producto">
+        <div class="mensaje">
+            <p>Tecnoduck es una plataforma de distribución de coronavirus
+               de última generación. Las compañías usan esta plataforma para
+                el espionaje digital y los
+               ataques a los servidores seguros de la competencia.
+            </p>
+        </div>
+        </div>
+        <h5 class="titulo-producto">Proyecto Cajas</h6>
+        <p class="parrafo-producto">Aplicaciones</p> 
+       </div>
+       <div class="tarjeta">
+        <div class="mensaje-contenedor">
+        <img src="images/imagen (32).png" alt="producto">
+        <div class="mensaje">
+            <p>Tecnoduck es una plataforma de distribución de coronavirus
+               de última generación. Las compañías usan esta plataforma para
+                el espionaje digital y los
+               ataques a los servidores seguros de la competencia.
+            </p>
+        </div>
+        </div>
+        <h5 class="titulo-producto">La inspiración no tiene límites</h5>
+        <p class="parrafo-producto">Sitio-web</p>
+       </div>
+       <div class="tarjeta">
+        <div class="mensaje-contenedor">
+        <img src="images/imagen (33).png" alt="producto">
+        <div class="mensaje">
+            <p>Tecnoduck es una plataforma de distribución de coronavirus
+               de última generación. Las compañías usan esta plataforma para
+                el espionaje digital y los
+               ataques a los servidores seguros de la competencia.
+            </p>
+        </div>
+        </div>
+        <h5 class="titulo-producto">Edición Limitada</h5>
+        <p class="parrafo-producto">Diseño</p>
+       </div>
+       <div class="tarjeta">
+        <div class="mensaje-contenedor">
+        <img src="images/imagen (34).png" alt="producto">
+        <div class="mensaje">
+            <p>Tecnoduck es una plataforma de distribución de coronavirus
+               de última generación. Las compañías usan esta plataforma para
+                el espionaje digital y los
+               ataques a los servidores seguros de la competencia.
+            </p>
+        </div>
+        </div>
+        <h5 class="titulo-producto">Proyecto LAB</h5>
+        <p class="parrafo-producto">Marketing</p>
+       </div>
+       <div class="tarjeta">
+        <div class="mensaje-contenedor">
+        <img src="images/imagen (35).png" alt="producto">
+        <div class="mensaje">
+            <p>Tecnoduck es una plataforma de distribución de coronavirus
+               de última generación. Las compañías usan esta plataforma para
+                el espionaje digital y los
+               ataques a los servidores seguros de la competencia.
+            </p>
+        </div>
+        </div>
+        <h5 class="titulo-producto">Negocio en Crecimiento</h5>
+        <p class="parrafo-producto">Aplicaciones</p>
+       </div>
+       </main>
+       <footer>
+        <div class="contenido-footer">
+        <div class="pie">   
+            <a href="#" class="logo-footer">WebStudio</a>
+              <h5 class="h5">Calz. Ticomán 500, Ciudad de México, CDMX, México</h5>
+            <ul class="infog">
+                <li><a href="mailto:info@example.com" id="correo-footer">info@example.com</a></li>
+                <li><a href="tel:+575555296000" id="telefono-footer">+575555296000</a></li>
+            </ul>
+            </div>
+        <div class="redes">
+            <h6 id="portafolio-redes">ENCUENTRENOS EN:</h6>
+            <ul class="redes-sociales">
+                <div id="ins" class="logopiepag">
+                <li><a href="#">
+                    <svg  class="redessociales" width="44" height="44">
+                    <use href="./svg/symbol-defs.svg#footer-instagram"></use>
+                    </svg>
+                </a></li>
+                </div>
+                <div id="faceb" class="logopiepag">
+                <li><a href="#">
+                    <svg  class="redessociales" width="44" height="44">
+                        <use href="./svg/symbol-defs.svg#footer-facebook"></use>
+                    </svg>
+                </a></li>
+                </div>
+                <div id="twit" class="logopiepag">
+                <li><a href="#">
+                    <svg  class="redessociales" width="44" height="44">
+                        <use href="./svg/symbol-defs.svg#footer-twitter"></use>
+                        </svg>
+                </a></li>
+                </div>
+                <div id="like" class="logopiepag">
+                <li><a href="#">
+                    <svg  class="redessociales" width="44" height="44">
+                    <use href="./svg/symbol-defs.svg#footer-likedin"></use>
+                    </svg>
+                </a></li>
+                </div>
+            </ul>
+        </div>
+        <label class="boletin">SUSCRÍBASE al boletín informativo 
+
+            <input type="email" name="email" placeholder="correo electronico" class="footer-input">
+
+        </label>
+        <button type="submit" id="suscribirse">Suscríbase
+            <svg id="icono-send"  width="24" height="24">
+                <use href="./svg/symbol-defs.svg#icono-enviar"></use>
+            </svg>
+        </button>
+        </div>    
+       </footer>     
+</body>
+</html>
