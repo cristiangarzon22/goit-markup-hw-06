@@ -17,7 +17,7 @@
 /*formulario estilos*/
 
 #modal1{
-    width: 550px;
+    width: 528px;
     height: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -86,7 +86,7 @@
 }
 
 .formulario__entrada-texto{
-    width: 477px;
+    width: 449px;
     margin-top: 8px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -626,18 +626,10 @@ header{
     color: var(--primary-white);
 }
 
-.boton1--active:hover{
-    background-color: orangered;
-}
-
 .boton2{
     width: 128px;
     margin: 8px;
     background: var(--second-white);
-}
-
-.boton2--active:hover{
-    background-color: var(--primary-blue);
 }
 
 .boton3{
@@ -646,18 +638,11 @@ header{
     background: var(--second-white);
 }
 
-.boton3--active:hover{
-    background-color: var(--primary-blue);
-}
 
 .boton4{
     width: 103px;
     margin: 8px;
     background: var(--second-white);
-}
-
-.boton4--active:hover{
-    background-color: var(--primary-blue);
 }
 
 .boton5{
@@ -666,6 +651,13 @@ header{
     background: var(--second-white);
 }
 
+.boton1--active:hover{
+    background-color: orangered;
+}
+
+.boton2--active:hover,
+.boton3--active:hover,
+.boton4--active:hover,
 .boton5--active:hover{
     background-color: var(--primary-blue);
 }
