@@ -570,8 +570,8 @@ header{
 }
 
 .clientes-regulares__contentlogo{
-    width:170px;
-    height:81px;
+    width:182px;
+    height:97px;
     border: 1px solid var(--second-grey);
     border-radius: 4px;
     padding: 5px;
@@ -598,7 +598,7 @@ header{
 /*menu botones*/
 
 .buttons{
-    width: 675px;
+    width: 677px;
     height: auto;
     margin-top: 106px;
     margin-left: auto;
@@ -813,7 +813,7 @@ footer{
 }
 
 .contenido-footer__redes{
-    margin-top:75px;
+    margin-top:71px;
     margin-left: 70px;
     font-family: 'Roboto';
     font-style: normal;
@@ -827,7 +827,7 @@ footer{
 
 .contenido-footer__redes-sociales{
     margin-left:60px;
-    margin-top: 20px;
+    margin-top: 16px;
     display: flex;
 }
 
@@ -838,7 +838,7 @@ footer{
     display:flex;
     align-items: center;
     justify-content: center;
-    margin:5px;
+    margin:4px;
     background: rgba(255, 255, 255, 0.1);
 }
 
@@ -919,7 +919,7 @@ footer{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border:none;
-    margin-top:108px;
+    margin-top:106px;
     margin-left: 45px;
     font-family: 'Roboto';
     font-style: normal;
