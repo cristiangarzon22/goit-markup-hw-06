@@ -36,44 +36,47 @@
        <hr>
        <dialog id="modal1">
         <button  onclick="window.modal1.close();">
-            <div class="modal1__close">   
-                <svg  class="modal1__close-form" width="15" height="15">
-                    <use href="./images/svg/icons.svg#icono-cerrar"></use>
-                </svg>
-                </div>
+         <div class="modal1__close  modal1__close--active">   
+        <svg  class="modal1__close-form" width="15" height="15">
+            <use href="./images/svg/icons.svg#icono-cerrar"></use>
+        </svg>
+        </div>
         </button>
         <form id="formulario" class="form" name="form" autocomplete="on" novalidate>
             <legend class="form__legend">Deje sus datos, nos contactaremos con usted</legend>
             <label class="form__label" for="nombre">Nombre
                 <div class="form__picture">
+                    <input type="text" class="form__input" name="name" id="nombre"   required   title="debe incluir por lo menos un nombre valido">
                     <svg class="form__icon" width="20" height="20">
                         <use href="./images/svg/icons.svg#icono-usuario"></use>
                     </svg>    
-            <input type="text" class="form__input" name="name" id="nombre"   required   title="debe incluir por lo menos un nombre valido">
+            
                 </div>
             </label>
             <label class="form__label" for="phone">telefono
                 <div class="form__picture">
+                    <input type="tel" class="form__input" id="phone" name="phone_number" required >
                     <svg class="form__icon" width="20" height="20">
                         <use href="./images/svg/icons.svg#icono-telefono"></use>
                     </svg>    
-            <input type="tel" class="form__input" id="phone" name="phone_number" required >
+            
                 </div>
             </label>
             <label class="form__label" for="user_email">correo
                 <div class="form__picture">
+                    <input id="user_email" class="form__input" type="email" name="email"  />
                     <svg class="form__icon" width="20" height="20">
                         <use href="./images/svg/icons.svg#icono-email"></use>
                     </svg> 
-            <input id="user_email" class="form__input" type="email" name="email"  />
+                    
                 </div>
             </label>
             <label class="form__label" for="coment">
             comentarios:
             </label>
-            <textarea name="comentarios"  class="form__input-text form__txt"  rows="5" placeholder="introduzca su texto"></textarea>
+            <textarea name="comentarios"  class="form__input-text form__input-text--active"  rows="5" placeholder="introduzca su texto"></textarea>
             <label class="form__render">
-            <input  id="checkr" type="checkbox" name="terminos" value="acepto" class="form__terms-Conditions form__terms-Conditions--checked"/>
+            <input  id="checkr" type="checkbox" name="terminos" value="acepto" class="form__terms-Conditions  form__terms-Conditions--checked"/>
             <div class="form__hidden"></div>
             <p class="form__warning">Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones.</p>
             </label>
