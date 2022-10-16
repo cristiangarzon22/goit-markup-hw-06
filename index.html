@@ -16,7 +16,7 @@
     <a href="#" class="logo">WebStudio</a>
     <nav>
         <ul class="navigation-list">
-               <li class="navigation-list__link"><a href="#"><button class="navigation-list__linkage navigation-list__linkage--active" onclick="window.modal1.showModal();">Estudio</button></a></li>
+               <li class="navigation-list__link"><a href="#" class="navigation-list__linkage navigation-list__linkage--active">Estudio</a></li>
                <li class="navigation-list__link"><a href="portafolio.html" class="navigation-list__linkage navigation-list__linkage--active">portafolio</a></li>
                <li class="navigation-list__link"><a href="#" class="navigation-list__linkage navigation-list__linkage--active">Contactos</a></li>
         </ul>
@@ -90,7 +90,7 @@
         <section class="banner">
             <div class="banner__poster">
                 <h1 class="banner__title">soluciones eficaces para su negocio</h1>
-            <button class="banner__button">solicitar un servicio</button>
+            <button class="banner__button" onclick="window.modal1.showModal();">solicitar un servicio</button>  
             </div>
         </section>
         <section class="content">
@@ -377,9 +377,9 @@
             </div>
         
         <label class="content-footer__bulletin">SUSCRÍBASE al boletín informativo 
-
+            <form action="">
             <input type="email" name="email" placeholder="correo electronico" class="content-footer__input">
-
+            </form>
         </label>
         <button type="submit" class="content-footer__button content-footer__button--active">Suscríbase
             <svg class="content-footer__send" width="24" height="24">
